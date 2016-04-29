@@ -5,15 +5,15 @@ if($('#banner').length) {
         var ww = $(window).width();
         console.log();
         if(ww > 1023) {
-            $('#banner').css('top', pe)
+            $('#banner > img').css('top', pe)
         } else {
-            $('#banner').css('top', '')
+            $('#banner > img').css('top', '')
         }
     });
     $(window).resize(function(){
         var ww = $(window).width()
         if (ww < 1024){
-            $('#banner').css('top', '')
+            $('#banner > img').css('top', '')
         }
     });
 }

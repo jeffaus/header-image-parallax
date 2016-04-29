@@ -11,5 +11,6 @@ Super basic script to enable a parallax scrolling effect on site header images
 
 ### Usage
 1. Just add this into your sites main scripts file
-2. Ensure you have an element called `#header` with an image tag in it
-i.e. `<header id='header'><img src='http://placehold.it/1920x350' /></header>`
+2. Ensure you have an element called `#banner` with an image tag in it
+3. i.e. `<div id='banner'><img src='http://placehold.it/1920x350' /></div>`
+4. Ensuire the element below has `background-color: #FFF;`
